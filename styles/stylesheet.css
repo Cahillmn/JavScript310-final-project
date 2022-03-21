@@ -1,0 +1,60 @@
+
+    .names {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+      margin-top: 4rem;
+    }
+  
+    @media screen and (max-width: 575px) {
+      .names {
+        width: 75%;
+        margin-left: 4rem;
+      }
+    }
+  
+    label {
+      font-weight: bold;
+    }
+  
+    h2 {
+      padding-bottom: 1rem;
+    }
+  
+    p {
+      font-size: 1.5rem;
+    }
+  
+    select {
+      min-height: 2rem;
+      font-size: 1.5rem;
+    }
+  
+    button {
+      width: 10rem;
+      font-weight: bold;
+      margin-left: 1rem;
+      background-color: rgb(121, 80, 27);
+      color: gold;
+    }
+  
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 3rem;
+      padding-bottom: 2rem;
+    }
+  
+    .characteristics {
+      margin: auto;
+      width: 40%;
+      padding-left: 20%;
+    }
+  
+    span {
+      font-weight: bold;
+    }
+  
+  
