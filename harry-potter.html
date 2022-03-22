@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <header> <img id="animation" src="harry-potter.jpeg" alt="harry potter flying on a broomstick"></header>
     <main class="characters-page">
         <div class="home">
             <h1>Characters</h1>
@@ -49,13 +50,20 @@
                         <button @click="getData">Submit</button>
                     </div>
                 </form>
+                <h2 class="character">Favorite Character?</h2>
+                <form class="form">
+                    <input type="radio" id="favorite" name="fav_character" value="Yes">
+                    <label for="favorite">Yes</label><br>
+                    <input type="radio" id="not-favorite" name="fav_character" value="No">
+                    <label for="not-favorite">No</label><br>
+                  </form>
             </div>
             <div id="container">
                 
             </div>
         </div>
     </main>
-    <script src="harry-potter2.js"></script>
+    <script src="harry-potter.js"></script>
 </body>
 
 </html>
